@@ -1,0 +1,19 @@
+# Project-specific Python environment
+.venv/
+
+# Python caches / test artefacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local machine / editor artefacts
+.DS_Store
+.idea/
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
